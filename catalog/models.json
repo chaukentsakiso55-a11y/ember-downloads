@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "id": "vosk-en-small",
+      "type": "speech-recognition",
+      "engine": "vosk-android",
+      "language": "en-US",
+      "display_name": "English offline speech model (small)",
+      "archive_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "license": "TBD",
+      "status": "planned"
+    },
+    {
+      "id": "vosk-zu",
+      "type": "speech-recognition",
+      "engine": "vosk-android",
+      "language": "zu-ZA",
+      "display_name": "isiZulu offline speech model",
+      "archive_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "license": "TBD",
+      "status": "planned"
+    },
+    {
+      "id": "translation-packs",
+      "type": "translation",
+      "engine": "future-local-translation",
+      "language_pairs": [
+        "en-zu",
+        "zu-en",
+        "en-nso",
+        "nso-en"
+      ],
+      "archive_url": null,
+      "sha256": null,
+      "size_bytes": null,
+      "license": "TBD",
+      "status": "planned"
+    }
+  ]
+}
