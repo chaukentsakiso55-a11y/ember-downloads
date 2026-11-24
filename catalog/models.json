@@ -7,11 +7,14 @@
       "engine": "vosk-android",
       "language": "en-US",
       "display_name": "English offline speech model (small)",
-      "archive_url": null,
-      "sha256": null,
-      "size_bytes": null,
-      "license": "TBD",
-      "status": "planned"
+      "archive_url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+      "sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+      "size_bytes": 41166628,
+      "license": "Apache-2.0",
+      "license_url": "https://alphacephei.com/vosk/models",
+      "status": "available",
+      "install_mode": "download-on-first-use",
+      "used_by": "ember-audio-"
     },
     {
       "id": "vosk-zu",
