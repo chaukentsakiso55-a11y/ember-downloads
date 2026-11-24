@@ -1,7 +1,20 @@
 # Ember Downloads
 
-Offline resource catalogue for Ember Audio Intelligence. Large model archives should be published as versioned GitHub Releases, not committed directly to Git.
+Offline resource catalogue for Ember Audio Intelligence. Large model archives are fetched on first use and stored in app-private storage.
 
-Only publish models with verified redistribution licences and SHA-256 checksums. Display language, size, licence and storage requirements. Install into app-private storage and mark a model Ready only after it loads successfully.
+## Available resource
 
-Current state: starter catalogue only. No speech or translation model archive has been published yet.
+- **English offline speech recognition:** Vosk small US English 0.15.
+- **Publisher:** Alpha Cephei.
+- **Licence:** Apache-2.0.
+- **Archive:** 41,166,628 bytes.
+- **SHA-256:** `30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498`.
+- **Official model catalogue:** https://alphacephei.com/vosk/models
+
+The Android app downloads this archive over HTTPS, checks the SHA-256 digest, validates the extracted model layout, and installs it under app-private storage before starting offline wake-word recognition.
+
+## Planned resources
+
+isiZulu speech recognition and offline translation remain planned. They are not advertised as installed or functional until a compatible model, licence, checksum, integration and device tests are complete.
+
+Never mark a resource ready based only on a completed download. The model must load successfully in the runtime first.
